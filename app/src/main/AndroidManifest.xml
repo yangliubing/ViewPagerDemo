@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.yxd.jazzviewpager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.android.yxd.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.android.yxd.activity.ViewPagerAct1"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct2"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct3"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct4"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct5"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct6"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct7"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct8"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct9"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct10"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct11"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct12"></activity>
+        <activity android:name="com.android.yxd.activity.CurlActivity"></activity>
+        <activity android:name="com.android.yxd.activity.CurveAct"></activity>
+        <activity android:name="com.android.yxd.activity.PageAct"></activity>
+        <activity android:name="com.android.yxd.activity.ViewPagerAct"></activity>
+        <activity android:name="com.android.yxd.activity.MyViewPagerAct"></activity>
+        <activity android:name="com.android.yxd.activity.MyBookAct" />
+        <activity android:name="com.android.yxd.activity.PageAct2"/>
+        <activity android:name="com.android.yxd.activity.PageAct3"/>
+    </application>
+
+</manifest>
